@@ -1,0 +1,23 @@
+.mat-icon{
+    vertical-align:middle;
+    margin-right: 1rem;
+    color: white;
+}
+
+.mat-divider{
+    border-top-width: 4px;
+    border-color: white;
+}
+
+.mat-list-item-active{
+   
+    height: 44px !important;
+}
+
+
+.nameSide{
+    color: white;
+}
+
+
+

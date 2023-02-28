@@ -1,0 +1,30 @@
+<mat-nav-list>
+    <style>
+        .geek{
+            width: 100%;
+            height: 100%;
+        }
+        img{
+            width: 100%;
+            height: 100px;
+            object-fit: cover;
+        }
+    </style>
+    <div class="geek">
+        <img src="../../assets/image/angular-logo.png" alt="Sound Space">
+    </div>
+    <mat-divider></mat-divider>
+    
+
+    <a mat-list-item  class="homeSide" routerLink="/home" routerLinkActive="list-item-active"><mat-icon>home</mat-icon> Home</a>
+   
+    <a mat-list-item routerLink="/profile" routerLinkActive="list-item-active">
+        <mat-icon>dashboard</mat-icon> Profile
+    </a>
+
+    <a mat-list-item class="exploreSide" routerLink="/explore" routerLinkActive="list-item-active"> <mat-icon>explore</mat-icon> Explore Music </a>
+
+    <a mat-list-item class="postSide" routerLink="/post" routerLinkActive="list-item-active"><mat-icon>microphone</mat-icon> Post </a>
+
+</mat-nav-list>
+

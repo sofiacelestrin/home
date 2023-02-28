@@ -1,0 +1,46 @@
+<mat-toolbar-row> 
+  <p></p>
+  <h2 matSubheader class="nameSide">Sound Space</h2>
+</mat-toolbar-row>
+
+
+<mat-sidenav-container>
+  <mat-sidenav mode = "side" opened="true">
+    <app-sidenav></app-sidenav>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <app-header></app-header>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+
+</mat-sidenav-container>
+
+<!-- <mat-drawer-container>
+  <mat-drawer mode="side" opened="true">
+    <app-sidenav></app-sidenav>
+  </mat-drawer>
+  <mat-drawer-content>
+    <app-header></app-header>
+    <router-outlet></router-outlet>
+  </mat-drawer-content>
+</mat-drawer-container> 
+
+
+mat-drawer{
+    width: 240px;
+    background-color:dodgerblue;
+    border-right: none;
+    color: white;
+    border-radius: 20px;
+    padding: 16px;
+}
+
+mat-drawer-container{
+    height: 100%;
+}
+
+-->
+
+
+
